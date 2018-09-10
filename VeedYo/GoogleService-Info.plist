@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>994012916807-klp0fi43refn21e9b14d81gn0ji015gn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.994012916807-klp0fi43refn21e9b14d81gn0ji015gn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBDz2rP3FWkLx0oPyPQ8Pb5A_bQyggYS-Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>994012916807</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.amodynamics.VeedYo</string>
+	<key>PROJECT_ID</key>
+	<string>veedyo-b586a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>veedyo-b586a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:994012916807:ios:a7fce74e85c4421f</string>
+	<key>DATABASE_URL</key>
+	<string>https://veedyo-b586a.firebaseio.com</string>
+</dict>
+</plist>

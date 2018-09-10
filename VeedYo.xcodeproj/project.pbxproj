@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0550402142DC340012F2CC /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E05503F2142DC340012F2CC /* Videos.swift */; };
+		6E0550422142E8330012F2CC /* VideoResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0550412142E8330012F2CC /* VideoResultCell.swift */; };
+		6E055044214305EB0012F2CC /* PlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E055043214305EB0012F2CC /* PlaybackViewController.swift */; };
 		6E3AAF242141AA6100C337AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3AAF232141AA6100C337AB /* AppDelegate.swift */; };
 		6E3AAF262141AA6100C337AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3AAF252141AA6100C337AB /* ViewController.swift */; };
 		6E3AAF292141AA6100C337AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3AAF272141AA6100C337AB /* Main.storyboard */; };
 		6E3AAF2B2141AA6C00C337AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3AAF2A2141AA6C00C337AB /* Assets.xcassets */; };
 		6E3AAF2E2141AA6C00C337AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3AAF2C2141AA6C00C337AB /* LaunchScreen.storyboard */; };
+		6E3AAF392141AAE100C337AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E3AAF382141AAE100C337AB /* GoogleService-Info.plist */; };
+		6E3AAF3B2141D5F700C337AB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3AAF3A2141D5F700C337AB /* SearchViewController.swift */; };
+		F5C329AD8B57007C44CF70DF /* Pods_VeedYo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20869C27E0A57AE5686BD5E /* Pods_VeedYo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D350F49951B30FD2BE2E261 /* Pods-VeedYo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeedYo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VeedYo/Pods-VeedYo.release.xcconfig"; sourceTree = "<group>"; };
+		6E05503F2142DC340012F2CC /* Videos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
+		6E0550412142E8330012F2CC /* VideoResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoResultCell.swift; sourceTree = "<group>"; };
+		6E055043214305EB0012F2CC /* PlaybackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackViewController.swift; sourceTree = "<group>"; };
 		6E3AAF202141AA6100C337AB /* VeedYo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeedYo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E3AAF232141AA6100C337AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E3AAF252141AA6100C337AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,10 @@
 		6E3AAF2A2141AA6C00C337AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E3AAF2D2141AA6C00C337AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E3AAF2F2141AA6C00C337AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3AAF382141AAE100C337AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E3AAF3A2141D5F700C337AB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A20869C27E0A57AE5686BD5E /* Pods_VeedYo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeedYo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E026FE0566EBDD9716904F91 /* Pods-VeedYo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeedYo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VeedYo/Pods-VeedYo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C329AD8B57007C44CF70DF /* Pods_VeedYo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				6E3AAF222141AA6100C337AB /* VeedYo */,
 				6E3AAF212141AA6100C337AB /* Products */,
+				F7A4AF4EA04211274746594C /* Pods */,
+				BF40F1D027963949CEA09FBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,60 @@
 		6E3AAF222141AA6100C337AB /* VeedYo */ = {
 			isa = PBXGroup;
 			children = (
-				6E3AAF232141AA6100C337AB /* AppDelegate.swift */,
-				6E3AAF252141AA6100C337AB /* ViewController.swift */,
-				6E3AAF272141AA6100C337AB /* Main.storyboard */,
+				6E3AAF372141AAAA00C337AB /* Controller */,
+				6E3AAF362141AA9E00C337AB /* View */,
+				6E3AAF352141AA9500C337AB /* Model */,
 				6E3AAF2A2141AA6C00C337AB /* Assets.xcassets */,
-				6E3AAF2C2141AA6C00C337AB /* LaunchScreen.storyboard */,
 				6E3AAF2F2141AA6C00C337AB /* Info.plist */,
+				6E3AAF382141AAE100C337AB /* GoogleService-Info.plist */,
 			);
 			path = VeedYo;
+			sourceTree = "<group>";
+		};
+		6E3AAF352141AA9500C337AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E05503F2142DC340012F2CC /* Videos.swift */,
+				6E0550412142E8330012F2CC /* VideoResultCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E3AAF362141AA9E00C337AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E3AAF272141AA6100C337AB /* Main.storyboard */,
+				6E3AAF2C2141AA6C00C337AB /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E3AAF372141AAAA00C337AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E3AAF232141AA6100C337AB /* AppDelegate.swift */,
+				6E3AAF252141AA6100C337AB /* ViewController.swift */,
+				6E3AAF3A2141D5F700C337AB /* SearchViewController.swift */,
+				6E055043214305EB0012F2CC /* PlaybackViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF40F1D027963949CEA09FBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A20869C27E0A57AE5686BD5E /* Pods_VeedYo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7A4AF4EA04211274746594C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E026FE0566EBDD9716904F91 /* Pods-VeedYo.debug.xcconfig */,
+				5D350F49951B30FD2BE2E261 /* Pods-VeedYo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E3AAF322141AA6C00C337AB /* Build configuration list for PBXNativeTarget "VeedYo" */;
 			buildPhases = (
+				3678975B1050B1BDB40FD52C /* [CP] Check Pods Manifest.lock */,
 				6E3AAF1C2141AA6000C337AB /* Sources */,
 				6E3AAF1D2141AA6000C337AB /* Frameworks */,
 				6E3AAF1E2141AA6000C337AB /* Resources */,
+				384E6DCD87CADA5039B3F6FF /* [CP] Embed Pods Frameworks */,
+				3CD88A34498E1CA67BBA724F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,16 +191,92 @@
 				6E3AAF2E2141AA6C00C337AB /* LaunchScreen.storyboard in Resources */,
 				6E3AAF2B2141AA6C00C337AB /* Assets.xcassets in Resources */,
 				6E3AAF292141AA6100C337AB /* Main.storyboard in Resources */,
+				6E3AAF392141AAE100C337AB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3678975B1050B1BDB40FD52C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VeedYo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		384E6DCD87CADA5039B3F6FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VeedYo/Pods-VeedYo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/youtube_ios_player_helper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VeedYo/Pods-VeedYo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CD88A34498E1CA67BBA724F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VeedYo/Pods-VeedYo-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VeedYo/Pods-VeedYo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6E3AAF1C2141AA6000C337AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E0550422142E8330012F2CC /* VideoResultCell.swift in Sources */,
+				6E3AAF3B2141D5F700C337AB /* SearchViewController.swift in Sources */,
+				6E0550402142DC340012F2CC /* Videos.swift in Sources */,
+				6E055044214305EB0012F2CC /* PlaybackViewController.swift in Sources */,
 				6E3AAF262141AA6100C337AB /* ViewController.swift in Sources */,
 				6E3AAF242141AA6100C337AB /* AppDelegate.swift in Sources */,
 			);
@@ -278,6 +420,7 @@
 		};
 		6E3AAF332141AA6C00C337AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E026FE0566EBDD9716904F91 /* Pods-VeedYo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +439,7 @@
 		};
 		6E3AAF342141AA6C00C337AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D350F49951B30FD2BE2E261 /* Pods-VeedYo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
