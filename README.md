@@ -4,9 +4,9 @@ VeedYo is a YouTube video browsing app for iOS devices with iOS 11 card-like ani
 
 Frameworks:
 
-1.Firebase
-2.GoogleSignIn
-3.Hero Transitions
+1. Firebase
+2. GoogleSignIn
+3. Hero Transitions
 
 ![](https://i.imgrpost.com/imgr/2018/09/10/1.jpg)  |  ![](https://i.imgrpost.com/imgr/2018/09/10/2.jpg)
 
